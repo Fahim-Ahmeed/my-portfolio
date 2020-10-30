@@ -8,13 +8,11 @@ import {
   Link
 } from "react-router-dom";
 import Blog from './components/Blog/Blog'
+import Project from './components/Project/Project';
 
 
 function App() {
   return (
-  //   <div className="App">
-  //  <Home></Home>
-  //   </div>
   <Router>
     <Switch>
       <Route path="/home">
@@ -22,6 +20,9 @@ function App() {
       </Route>
       <Route path="/blog">
       <Blog />
+      </Route>
+      <Route path="/project">
+       <Project></Project>
       </Route>
       <Route path="/">
         <Home></Home>

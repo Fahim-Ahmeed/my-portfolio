@@ -41,17 +41,21 @@ const SendMessage = ({ modalIsOpen, closeModal }) => {
             >
                 
                 <form className="p-5"onSubmit={sendEmail} >
-                    <div className="form-group">
+                    <div className="row mx-auto">
+                    <div className="form-group col-md-8 mx-auto">
                         <input type="text" required   name="name" placeholder="Your Name" className="form-control" />
                     </div>
-                    <div className="form-group">
+                    <div className="form-group col-md-8 mx-auto">
                         <input type="text" required   name="email" placeholder="your email" className="form-control" />
                     </div>
-                    <div className="form-group">
-                        <input type="text" required  name="message" placeholder="Message" className="form-control" />
+                    <div className="form-group col-md-8 mx-auto">
+                        <input type="text" required  name="message"  placeholder="Message" className="form-control" />
                     </div>
-                    <div className="form-group text-right">
+                    
+                   
+                    <div className="form-group col-md-8 mx-auto text-right">
                     <button className="btn btn-dark ">Send message</button>
+                    </div>
                     </div>
                 </form>
             

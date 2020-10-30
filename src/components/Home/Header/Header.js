@@ -28,7 +28,7 @@ const Header = () => {
               }}>
               Home
                         </NavLink>
-            <NavLink to="/portfolio"
+            <NavLink to="/project"
               className="nav-link mr-4"
               activeStyle={{
                 fontWeight: "bold",
@@ -61,11 +61,12 @@ const Header = () => {
               }}>
               About
                         </NavLink>
-            <NavLink to="">
-            <Button className="message ">Resume</Button>
-    
-
-            </NavLink>
+                        <a href='https://drive.google.com/file/d/1WhXuT38IyRYp24IpNw_ROSCCL6WN2Exz/view' target="_blank" rel="noopener noreferrer" download>
+                        <Button className="message mb-2 mr-2">
+                            <i className="fas fa-download" />
+                            Resume
+                        </Button>
+                    </a>
 
           </Nav>
 

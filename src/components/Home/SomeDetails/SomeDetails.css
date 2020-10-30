@@ -1,0 +1,26 @@
+.message{
+    background:black;
+    border:1px solid rgb(175, 58, 77);
+    color:red;
+    border-radius:5px;
+
+}  
+.message:hover{
+    background:#cf386b;
+    border:1px solid #a79b9d;
+    color:white;
+} 
+.download{
+    background:#cf386b;
+    border:none;
+    color:white;
+}
+.download:hover{
+    background:#cf386b;
+    font-weight:bold;
+    border:none;
+    color:white;
+}
+.main-img{
+   
+}
