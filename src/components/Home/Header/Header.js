@@ -22,7 +22,7 @@ const Header = () => {
               activeStyle={{
                 fontWeight: "bold",
                 paddingBottom: '0px',
-                borderBottom: '3px solid #ffffff',
+                borderBottom: '3px solid black',
                 textDecoration: 'none',
                 color: '#111430'
               }}>
@@ -33,7 +33,7 @@ const Header = () => {
               activeStyle={{
                 fontWeight: "bold",
                 paddingBottom: '0px',
-                borderBottom: '3px solid #ffffff',
+                borderBottom: '3px solid black',
                 textDecoration: 'none',
                 color: ''
               }}>
@@ -44,7 +44,7 @@ const Header = () => {
               activeStyle={{
                 fontWeight: "bold",
                 paddingBottom: '0px',
-                borderBottom: '3px solid #ffffff',
+                borderBottom: '3px solid black',
                 textDecoration: 'none',
                 color: 'black'
               }}>
@@ -55,7 +55,7 @@ const Header = () => {
               activeStyle={{
                 fontWeight: "bold",
                 paddingBottom: '0px',
-                borderBottom: '3px solid #ffffff',
+                borderBottom: '3px solid black',
                 textDecoration: 'none',
                 color: '#111430'
               }}>
