@@ -13,3 +13,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (min-width:1200px){
+  
+  #particles-js{
+    background:lightgray;
+    height:635px;
+  }
+}
+@media only screen and (max-width:912px){
+  
+  #particles-js{
+    background:lightgray;
+    height:1000px;
+  }
+}
+@media only screen and (min-width:912px){
+  
+  #particles-js{
+    background:lightgray;
+    height:750px;
+  }
+}

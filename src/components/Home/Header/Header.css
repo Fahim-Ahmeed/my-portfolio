@@ -10,7 +10,7 @@
 
 }  
 .message:hover{
-    background:#cf386b;
+    background:#cf386b #1a3dd8;
     border:1px solid #a79b9d;
     color:white;
 } 

@@ -3,7 +3,6 @@ import Header from './Header/Header';
 import './Home.css';
 
 import SomeDetails from './SomeDetails/SomeDetails';
-import BgParticles from './BgParticles/BgParticles';
 
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
             {/* <BgParticles> */}
                 <Header></Header>
                 <SomeDetails></SomeDetails>
-            {/* </BgParticles> */}
+         
 
 
         </div>
