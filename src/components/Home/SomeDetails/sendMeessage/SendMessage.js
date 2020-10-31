@@ -39,17 +39,17 @@ const SendMessage = ({ modalIsOpen, closeModal }) => {
                 style={customStyles}
                 contentLabel="Example Modal"
             >
-                
+                <h2 className="text-center">Get in touch</h2>
                 <form className="p-5"onSubmit={sendEmail} >
                     <div className="row mx-auto">
                     <div className="form-group col-md-8 mx-auto">
                         <input type="text" required   name="name" placeholder="Your Name" className="form-control" />
                     </div>
                     <div className="form-group col-md-8 mx-auto">
-                        <input type="text" required   name="email" placeholder="your email" className="form-control" />
+                        <input type="text" required   name="email" placeholder="Your email" className="form-control" />
                     </div>
                     <div className="form-group col-md-8 mx-auto">
-                        <input type="text" required  name="message"  placeholder="Message" className="form-control" />
+                        <input type="text" required style={{height:'100px'}} name="message"  placeholder="Your Message" className="form-control" />
                     </div>
                     
                    

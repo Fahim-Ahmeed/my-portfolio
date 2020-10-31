@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import './Home.css';
 
@@ -13,6 +14,7 @@ const Home = () => {
         
                 <Header></Header>
                 <SomeDetails></SomeDetails>
+                {/* <Footer></Footer> */}
                
     
 

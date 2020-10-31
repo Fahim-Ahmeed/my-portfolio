@@ -18,7 +18,7 @@ const SomeDetails = () => {
         <section>
             <div className="row w-75 offset-1 mt-5 pt-5">
                 <div className="col-md-6 col-sm-12">
-                    <h2><span style={{ color: ' #4412b9' }}>Hi, i am</span><br /><span >Fahim Ahmed</span></h2>
+                    <h2><span className="hi">Hi, i am</span><br /><span >Fahim Ahmed</span></h2>
                     <h3 className="profession">
                         <Typical
                             steps={['MERN Stack Developer', 1000, 'Programmer', 1000,'Software Engineer',1500]}
