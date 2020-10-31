@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
@@ -14,7 +15,11 @@ import { Button } from 'react-bootstrap';
 const VolunteerWork = () => {
     return (
         <section className='some-works text-center py-5 mb-5'>
-            <h1 className='someWorks-title py-5'>Volunteer Networks</h1>
+            <h1 className='someWorks-title py-5'><Typical
+                            steps={['Volunteer Networks', 1000,' ',1000]}
+                            loop={Infinity}
+                            wrapper="p"
+                        /></h1>
             <h4>A full stack volunteer service application for social
                 people. <br />where they can get volunteer work according to their
                 choice.</h4>
@@ -36,6 +41,13 @@ const VolunteerWork = () => {
                 <Button className="message mb-2 mr-2">
                     <i className="fas fa-download" />
                             Live Website
+                        </Button>
+
+            </a>
+            <a href='https://github.com/Fahim-Ahmeed/volunteer-network' target="_blank" rel="noopener noreferrer" download>
+                <Button className="download mb-2 mr-2">
+                    <i className="fas fa-download" />
+                            Github
                         </Button>
 
             </a>

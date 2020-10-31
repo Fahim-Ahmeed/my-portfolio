@@ -1,5 +1,6 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import Typical from 'react-typical'
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import '../CreativeAgency/CreativeAgency.css';
@@ -12,7 +13,11 @@ import travel4 from './image/travel4.png';
 const TravelGuru = () => {
     return (
         <section className='some-works text-center py-5 mb-5'>
-            <h1 className='someWorks-title py-5'>Trvel Guru</h1>
+            <h1 className='someWorks-title py-5'> <Typical
+                            steps={['Travel Guru', 1000,' ',1000]}
+                            loop={Infinity}
+                            wrapper="p"
+                        /></h1>
             <h4>A full stack volunteer service application for social
                 people. <br />where they can get volunteer work according to their
                 choice.</h4>
@@ -36,6 +41,13 @@ const TravelGuru = () => {
                         </Button>
 
             </a>
+            <a href='https://github.com/Fahim-Ahmeed/travel-guru' target="_blank" rel="noopener noreferrer" download>
+        <Button className="download mb-2 mr-2">
+          <i className="fas fa-download" />
+                            Github
+                        </Button>
+                  
+      </a>
             <h3>### Technology</h3>
             <div className="text-center">
                 <Button className="mb-2 mr-2">React</Button>

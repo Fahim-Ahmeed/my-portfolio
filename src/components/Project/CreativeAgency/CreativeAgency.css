@@ -12,7 +12,8 @@
     background-color: #FBD062 !important;
   }
   .someWorks-title {
-    color: white;
+    color: #cf386b;
+    font-size: bold;
     font-weight: 600;
     font-size: 34px;
     line-height: 43px;
@@ -25,7 +26,7 @@
   @media only screen and (min-width:1200px){
   
     .some-works {
-      height: 800px;
+      height:800px;
       background: #111430;
       color: white;
     }

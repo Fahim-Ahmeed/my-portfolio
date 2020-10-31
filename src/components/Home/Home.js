@@ -10,11 +10,11 @@ const Home = () => {
         <div className="header-area">
 
 
-            {/* <BgParticles> */}
+        
                 <Header></Header>
                 <SomeDetails></SomeDetails>
-         
-
+               
+    
 
         </div>
     );

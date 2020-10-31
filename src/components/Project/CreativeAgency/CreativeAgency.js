@@ -1,5 +1,6 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
+import Typical from 'react-typical'
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import creative1 from "./image/creative1.png";
@@ -13,7 +14,11 @@ import { Button } from 'react-bootstrap';
 const CreativeAgency = () => {
   return (
     <section className='some-works text-center py-5 mb-5'>
-      <h1 className='someWorks-title py-5'>Creative Agency</h1>
+      <h1 className='someWorks-title py-5'> <Typical
+                            steps={['Creative Agency', 1000,' ',1000]}
+                            loop={Infinity}
+                            wrapper="p"
+                        /></h1>
       <h4>A full-stack project for people's needs  <br/>where people can get
         technical services,and they can give their feedback .</h4>
       <OwlCarousel className='owl-theme mt-5'
@@ -37,7 +42,7 @@ const CreativeAgency = () => {
                         </Button>
                   
       </a>
-      <a href=' https://creative-agency-dhaka.web.app/' target="_blank" rel="noopener noreferrer" download>
+      <a href='https://github.com/Fahim-Ahmeed/creative-agency-client' target="_blank" rel="noopener noreferrer" download>
         <Button className="download mb-2 mr-2">
           <i className="fas fa-download" />
                             Github
