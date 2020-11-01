@@ -5,10 +5,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Blog from './components/Blog/Blog'
 import Project from './components/Project/Project';
+import About from './components/About/About';
 
 
 function App() {
@@ -24,7 +24,10 @@ function App() {
       <Route path="/project">
        <Project></Project>
       </Route>
-      <Route path="/">
+      <Route path="/about">
+       <About></About>
+      </Route>
+      <Route exact path="/">
         <Home></Home>
       </Route>
     </Switch>

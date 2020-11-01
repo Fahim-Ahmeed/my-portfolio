@@ -1,0 +1,41 @@
+.about{
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.about-section{
+    height: 250px;
+    padding-top:5px;
+    padding-left:20px;
+    border-bottom: 5px solid #cf386b;
+    background:lightgray;
+    margin:20px;
+
+}
+@media only screen and (max-width:912px){
+  
+    .first-child{
+        height: 250px;
+        padding-top:5px;
+        padding-left:20px;
+        border-top: 5px solid #cf386b;
+        border-bottom: 5px solid #cf386b;
+        background:lightgray;
+        margin:20px;
+    
+    }
+  }
+.about-section h4{
+    color:#cf386b;
+    font-weight: bold;
+}
+/* .about-section h6{
+    display: inline;
+}
+.about-section p{
+    display: inline;
+} */
+.description{
+    background-color:lightgray;
+}

@@ -3,7 +3,7 @@
     text-align: center;
   }
   a.social {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     transition: transform 250ms;
     display: inline-block;
   }
@@ -32,5 +32,6 @@
   .footer{
     margin-bottom: 0;
     padding-bottom:0;
+    /* position:fixed; */
   }
   

@@ -17,11 +17,13 @@ const SomeDetails = () => {
     return (
         <section>
             <div className="row w-75 offset-1 mt-5 pt-5">
+                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage} alt="fahim ahmed" className="img-fluid main-img" />
+                </div>
                 <div className="col-md-6 col-sm-12">
                     <h2><span className="hi">Hi, i am</span><br /><span >Fahim Ahmed</span></h2>
                     <h3 className="profession">
                         <Typical
-                            steps={['MERN Stack Developer', 1000, 'Programmer', 1000,'Software Engineer',1500]}
+                            steps={['MERN Stack Developer', 1000, 'Programmer', 1000, 'Software Engineer', 1500]}
                             loop={Infinity}
                             wrapper="p"
                         />
@@ -36,8 +38,7 @@ const SomeDetails = () => {
                     <Button onClick={openModal} className="message mb-2 ">Send message</Button>
                     <SendMessage modalIsOpen={modalIsOpen} closeModal={closeModal}></SendMessage>
                 </div>
-                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage} alt="fahim ahmed" className="img-fluid main-img" />
-                </div>
+
             </div>
         </section>
     );
