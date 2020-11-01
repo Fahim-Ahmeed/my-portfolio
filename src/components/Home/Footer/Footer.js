@@ -2,38 +2,43 @@ import React from 'react';
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram
+    faGithub,
+    faFacebook,
+    faTwitter,
+    faInstagram
 } from "@fortawesome/free-brands-svg-icons";
+import { FaLinkedin,FaFacebook,FaGithub,FaInstagram} from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="social-container row w-50 mx-auto">
-            <h3>@LearnBuildTeach</h3>
-            <a
-                href="https://www.youtube.com/c/jamesqquick"
-                className="youtube social"
-            >
-                <FontAwesomeIcon icon={faYoutube} size="2x" />
-            </a>
-            <a
-                href="https://www.facebook.com/learnbuildteach/"
-                className="facebook social"
-            >
-                <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
-            <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-                <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
-            <a
-                href="https://www.instagram.com/learnbuildteach"
-                className="instagram social"
-            >
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
-        </div>
+      <div className="row footer">
+       <div className="mx-auto">
+          
+       <a
+                    href="https://www.linkedin.com/in/fahim-ahmed-a7978a1b1/"
+                    className="linkedin social"
+                >
+                  < FaLinkedin size="30"/>
+                </a>
+                <a
+                    href="https://github.com/Fahim-Ahmeed"
+                    className="github social"
+                >
+                < FaGithub size="30"/>
+                </a>
+                <a href="https://www.facebook.com/fahimsahriar.fahad.leo.messi10/" className="facebook social">
+                < FaFacebook size="30"/>
+                </a>
+                <a
+                    href="https://www.instagram.com/fahim_sahriar_fahad/?hl=en"
+                    className="instagram social"
+                >
+                    < FaInstagram size="30"/>
+                </a>
+               <footer> <small>&copy; Fahim Ahmed {new Date().getFullYear()} | All Right Reserved</small></footer>
+       </div>
+      </div>
+       
     );
 };
 
