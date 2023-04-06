@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical'
-import myImage from '../../../image/myImage.png';
+import myImage1 from '../../../image/myImage1.jpeg';
 import './SomeDetails.css'
 import SendMessage from './sendMeessage/SendMessage';
 
@@ -17,7 +17,7 @@ const SomeDetails = () => {
     return (
         <section>
             <div className="row w-75 offset-1 mt-5 pt-5">
-                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage} alt="fahim ahmed" className="img-fluid main-img" />
+                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage1} id='image1' alt="fahim ahmed" className="img-fluid main-img"  />
                 </div>
                 <div className="col-md-6 col-sm-12">
                     <h2><span className="hi">Hi, i am</span><br /><span >Fahim Ahmed</span></h2>

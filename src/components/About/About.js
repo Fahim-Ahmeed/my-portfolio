@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import myImage3 from '../../image/myImage3.png';
+import myImage4 from '../../image/myImage4.jpeg';
 import Header from '../Home/Header/Header';
 import Typical from 'react-typical'
 import './About.css';
@@ -62,7 +62,7 @@ const About = () => {
                         < FaInstagram size="30" />
                     </a>
                 </div>
-                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage3} alt="fahim ahmed" className="img-fluid main-img" />
+                <div className="col-md-5 col-sm-12 offset-1" ><img src={myImage4} id='image4' alt="fahim ahmed" className="img-fluid main-img" />
                 </div>
             </div>
         
