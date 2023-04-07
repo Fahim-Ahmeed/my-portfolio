@@ -40,5 +40,6 @@
     background-color:lightgray;
 }
 #image4{
-    border-radius: 40%;
+    border-radius: 30%;
+    border:1px solid black;
 }

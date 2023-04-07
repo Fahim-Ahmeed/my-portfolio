@@ -1,6 +1,6 @@
 .project{
-    position: absolute;
-    height: 100%;
+    position: relative;
+    height:fit-content;
     width: 100%;
     background-color: lightgray;    
 }
